@@ -16,7 +16,7 @@ const connect = function() {
   });
 
   conn.on("data", (data) => {
-    console.log('server says: ',data);
+    console.log('server says: ', data);
   });
 
   // interpret incoming data as text
